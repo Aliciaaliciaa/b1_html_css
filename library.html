@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/library.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+
+<header>
+    <h1 class="title">Harry Potter</h1>
+    <div class="header__container">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html">Accueil</a></li>
+                <li class="nav__item"><a href="library.html">Bibliothèque</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="images/photo_profile.webp"
+                 alt="profile"
+                 class="profile__img">
+        </div>
+    </div>
+</header>
+<main>
+    <div class="search">
+        <input type="text" placeholder="Recherche ta carte">
+        <div class="filters">
+            <div class="btn btn--primary">
+                Gryffondor
+            </div>
+            <div class="btn btn--primary">
+                Serpentard
+            </div>
+            <div class="btn btn--primary">
+                Poufsouffle
+            </div>
+            <div class="btn btn--primary">
+                Serdaigle
+            </div>
+        </div>
+    </div>
+
+    <section class="library">
+        <div class="library__container">
+            <div class="card-item">
+                <img src="images/harrypotter.png" alt="Harry Potter" class="card-item__img">
+                <div class="card-item__description">
+                    <p>Harry Potter</p>
+                    <div class="card-item__house" style="background: red"></div>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="images/ronweasley.png" alt="Ron Weasley" class="card-item__img">
+                <div class="card-item__description">
+                    <p>Ron Weasley</p>
+                    <div class="card-item__house" style="background: red"></div>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="images/hermionegranger.webp" alt="Hermione Granger" class="card-item__img">
+                <div class="card-item__description">
+                    <p>Hermione Granger</p>
+                    <div class="card-item__house" style="background: red"></div>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="images/dragomalefoy.png" alt="Draco Malfoy" class="card-item__img">
+                <div class="card-item__description">
+                    <p>Draco Malfoy</p>
+                    <div class="card-item__house" style="background: green"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer__newsletter">
+        <h4>Rejoignez notre communauté ! Ne manquez pas nos programmes</h4>
+        <form class="footer__newsletter-form">
+            <input type="email" placeholder="Entrez votre email" required>
+            <button class="btn--primary">S'abonner</button>
+        </form>
+    </div>
+
+    <div class="footer__social">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">Accueil</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Bibliothèque</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <div class="footer__bottom">
+        <p>© 2024 Harry Potter. Tous droits réservés.</p>
+    </div>
+</footer>
+
+</body>
+</html>
